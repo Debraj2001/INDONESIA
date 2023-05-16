@@ -1,0 +1,1759 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 1200px;
+    background-color: #72a352;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #537543;
+    display: flex;
+}
+
+.logo{
+    padding: 20px 0px 0px 40px;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.navbar ul{
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.search{
+    width: 50px;
+    height: 50px;
+    margin: 40px 20px 0px 0px;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.left{
+    margin-left: 60px;
+    margin-top: 30px;
+    padding: 0px;
+    width: 60%;
+}
+
+.left h2{
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+.left h2 span{
+    font-size: 60px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+.left p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.btn{
+    width: 200px;
+    height: 60px;
+    background-color: #e6ca48;
+    margin: 30px 0px 0px 10px;
+    border-radius: 20px;
+}
+
+.btntext{
+    font-size: 20px;
+    color: #537543;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.right{
+    width: 40%;
+}
+
+.image{
+    width: 500px;
+    height: 400px;
+    background-image: url('../images/food.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.next{
+    width: 70%;
+    height: 312px;
+    background-color: #e6ca48;
+    margin-top: 50px;
+    float: right;
+}
+
+.thaali{
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/thaali.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 10px;
+    right: 174px;
+}
+
+.para{
+    float: right; 
+}
+
+.para h1{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: #537543;
+    padding: 30px 0px 0px 0px;
+    margin-left: 80px;
+}
+
+.para h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #537543;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+
+.para p{
+    font-size: 20px;
+    color: #537543;
+    text-align: center;
+    padding: 20px 200px 0px 0px;
+}
+
+.parent{
+    width: 100%;
+    height: 400px;
+    background-color: #537543;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.card1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card1 h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.card1 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.card2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card2 h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.card2 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.cook{
+    width: 100%;
+    height: 850px;
+    background-color: #72a352;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    padding-top: 30px;
+}
+
+.title h5{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.father{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cook{
+    width: 100%;
+    height: 850px;
+}
+
+.cook p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.orange{
+    width: 100%;
+    height: 500px;
+    background-color: #dd982c;
+    display: flex;
+    justify-content: space-around;
+}
+
+.graph{
+    color: white;
+}
+
+.graph h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.graph p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.sub{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+
+.subt{
+    font-size: 25px;
+    text-align: center;
+    color: #537543;
+    padding-top: 10px;
+}
+
+.sub:hover{
+    cursor: pointer;
+}
+
+.testi{
+    width: 100%;
+    height: 300px;
+    background-color: #537543;
+    text-align: center;
+}
+
+.testi h2{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    padding-top: 50px;
+}
+
+.testi p{
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+}
+
+.circle{
+    margin-top: 50px;
+}
+
+.menu{
+    width: 100%;
+    height: 300px;
+    background-color: #dd982c;
+    text-align: center;
+}
+
+.menu h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #537543;
+    padding-top: 40px;
+}
+
+.menu h3{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #537543;
+    padding-top: 10px;
+}
+
+.menu p{
+    font-size: 15px;
+    color: #537543;
+    padding-top: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #72a352;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    display: flex;
+}
+
+.t{
+    margin-left: 30px;
+}
+
+.t h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.t1{
+    margin-left: 144px;
+}
+
+.t1 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t1 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t1 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.t2{
+    margin-left: 60px;
+}
+
+.t2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t2 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t2 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.t3{
+    margin-left: 30px;
+}
+
+.t3 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t3 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t3 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.t4{
+    margin-left: 60px;
+}
+
+.t4 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t4 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t4 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.t5{
+    margin-left: 60px;
+}
+
+.t5 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 70px;
+}
+
+.t5 h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.t5 p{
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+}
+
+.white{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.white h2{
+    font-size: 60px;
+    font-family: 'Berkshire Swash', cursive;
+    color: #72a352;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.white p{
+    font-size: 20px;
+    color: #72a352;
+    text-align: center;
+    padding-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: 3px solid #537543;
+    border-radius: 50px;
+    color: #2c2f2b;
+    text-align: center;
+    margin: 50px 0px 0px 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#lname{
+    width: 50%;
+    height: 50px;
+    background-color: #537543;
+    color: white; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#lname:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #72a352;
+}
+
+table{
+    width: 100%;
+    background-color: #537543;
+}
+
+th{
+    font-size: 30px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+td{
+    font-size: 20px;
+}
+
+.icons{
+    margin-top: 50px;
+}
+
+
+
+@media screen and (max-width:992px){
+
+    .cook p{
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .next{
+        width: 70%;
+        height: 312px;
+        background-color: #e6ca48;
+        margin-top: 50px;
+        float: right;
+    }
+    
+    .thaali{
+        width: 400px;
+        height: 400px;
+        background-image: url('../images/thaali.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 10px;
+        right: 280px;
+    }
+
+    .para{
+        float: right; 
+    }
+    
+    .para h1{
+        font-size: 40px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #537543;
+        padding: 30px 0px 0px 0px;
+        margin-left: 66px;
+    }
+    
+    .para h3{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #537543;
+        padding-top: 20px;
+        margin-left: 52px;
+    }
+    
+    .para p{
+        font-size: 20px;
+        color: #537543;
+        text-align: center;
+        padding: 20px 32px 0px 0px;
+    }
+
+    .graph{
+        color: white;
+    }
+    
+    .graph h2{
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top: 20px;
+    }
+    
+    .graph p{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 50px;
+    }
+
+    .grid-item {
+        padding: 20px;
+        display: block;
+    }
+
+    .t{
+        margin-left: 20px;
+    }
+    
+    .t h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 46px;
+        padding-left: 100px;
+    }
+    
+    .t h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+    
+    .t p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+        padding-left: 78px;
+    }
+
+    .t1{
+        margin-left: 144px;
+    }
+    
+    .t1 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+    }
+    
+    .t1 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .t1 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .t2{
+        margin-left: 60px;
+    }
+    
+    .t2 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+        padding-left: 78px;
+    }
+    
+    .t2 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 150px;
+    }
+    
+    .t2 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+        padding-left: 78px;
+    }
+
+    .t3{
+        margin-left: 137px;
+    }
+    
+    .t3 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+    }
+    
+    .t3 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    
+    .t3 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .t4{
+        margin-left: 60px;
+    }
+    
+    .t4 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+        padding-left: 46px;
+    }
+    
+    .t4 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 125px;
+    }
+    
+    .t4 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+        padding-left: 46px;
+    }
+
+    .t5{
+        margin-left: 60px;
+    }
+    
+    .t5 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    
+    .t5 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 20px;
+        padding-left: 137px;
+    }
+    
+    .t5 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+    input{
+        width: 50%;
+        height: 50px;
+        border: 3px solid #537543;
+        border-radius: 50px;
+        color: #2c2f2b;
+        text-align: center;
+        margin: 50px 0px 0px 247px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .navbar ul li a{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-left: 20px;
+    }
+
+    .left{
+        margin-left: 40px;
+        margin-top: 30px;
+        padding: 0px;
+        width: 60%;
+    }
+    
+    .left h2{
+        font-size: 30px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+    
+    .left h2 span{
+        font-size: 60px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+    
+    .left p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 60%;
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    
+    .btn{
+        width: 168px;
+        height: 60px;
+        background-color: #e6ca48;
+        margin: 30px 0px 0px 4px;
+        border-radius: 20px;
+    }
+    
+    .btntext{
+        font-size: 20px;
+        color: #537543;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+    }
+    
+    .right{
+        width: 40%;
+    }
+    
+    .image{
+        width: 282px;
+        height: 400px;
+        background-image: url('../images/food.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+
+    .thaali{
+        width: 400px;
+        height: 400px;
+        background-image: url('../images/thaali.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 14px;
+        right: 280px;
+    }
+
+    .para{
+        float: right; 
+    }
+    
+    .para h1{
+        font-size: 40px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #537543;
+        padding: 30px 0px 0px 0px;
+        margin-left: 66px;
+    }
+    
+    .para h3{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        color: #537543;
+        padding-top: 20px;
+        margin-left: 52px;
+    }
+    
+    .para p{
+        font-size: 15px;
+        color: #537543;
+        text-align: center;
+        padding: 20px 32px 0px 0px;
+    }
+
+    .card{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card h2{
+        font-size: 30px;
+        color: white;
+        padding-top: 40px;
+        font-weight: bold;
+    }
+    
+    .card p{
+        font-size: 15px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card1 h2{
+        font-size: 30px;
+        color: white;
+        padding-top: 40px;
+        font-weight: bold;
+    }
+    
+    .card1 p{
+        font-size: 15px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card2 h2{
+        font-size: 30px;
+        color: white;
+        padding-top: 40px;
+        font-weight: bold;
+    }
+    
+    .card2 p{
+        font-size: 15px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .cook{
+        width: 100%;
+        height: 2100px;
+    }
+
+    .father{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 500px;
+        align-items: center;
+        margin-left: 133px;
+    }
+
+    .orange{
+        width: 100%;
+        height: 750px;
+        background-color: #dd982c;
+        display: block;
+    }
+
+    .chef{
+        text-align: center;
+    }
+
+    .graph h2{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top: 0px;
+        text-align: center;
+    }
+    
+    .graph p{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .sub{
+        width: 150px;
+        height: 45px;
+        background-color: white;
+        border-radius: 40px;
+        margin-top: 13px;
+        margin-left: 300px;
+    }
+    
+    .subt{
+        font-size: 20px;
+        text-align: center;
+        color: #537543;
+        padding-top: 10px;
+    }
+    
+    .sub:hover{
+        cursor: pointer;
+    }
+
+    .testi p{
+        font-size: 17px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .menu p{
+        font-size: 14px;
+        color: #537543;
+        padding-top: 15px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #72a352;
+        padding: 0px;
+    }
+
+    .grid-item{
+        margin-left: -38px;
+    }
+
+}
+
+@media screen and (max-width:576px){
+
+    .logo{
+        padding: 10px 0px 0px 15px;
+    }    
+
+    .navbar ul li a{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-left: 15px;
+    }
+
+    .search{
+        width: 50px;
+        height: 50px;
+        margin: 30px 20px 0px 0px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 350px;
+        display: flex;
+    }
+
+    .left h2{
+        font-size: 25px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+
+    .left h2 span{
+        font-size: 50px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+    
+    .left p{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 50%;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .right{
+        width: 40%;
+    }
+    
+    .image{
+        width: 212px;
+        height: 400px;
+        background-image: url('../images/food.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .btn{
+        width: 135px;
+        height: 50px;
+        background-color: #e6ca48;
+        margin: 15px 0px 0px 10px;
+        border-radius: 20px;
+    }
+    
+    .btntext{
+        font-size: 15px;
+        color: #537543;
+        padding-top: 17px;
+        text-align: center;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+    }
+
+    .next{
+        width: 70%;
+        height: 273px;
+        background-color: #e6ca48;
+        margin-top: 50px;
+        float: right;
+    }
+
+    .thaali{
+        width: 338px;
+        height: 336px;
+        background-image: url('../images/thaali.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 5px;
+        right: 200px;
+    }
+
+    .para{
+        float: right; 
+    }
+    
+    .para h1{
+        font-size: 30px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #537543;
+        padding: 30px 0px 0px 0px;
+        margin-left: -5px;
+    }
+    
+    .para h3{
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: #537543;
+        padding-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .para p{
+        font-size: 10px;
+        color: #537543;
+        text-align: left;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .parent{
+        width: 100%;
+        height: 310px;
+        background-color: #537543;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+
+    .card{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card h2{
+        font-size: 25px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card1 h2{
+        font-size: 25px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card1 p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card2 h2{
+        font-size: 25px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card2 p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .father{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 500px;
+        align-items: center;
+        margin-left: 45px;
+    }
+
+    .orange{
+        width: 100%;
+        height: 750px;
+        background-color: #dd982c;
+        display: block;
+        margin: 0px 50px 0px 0px;
+    }
+
+    .chef img{
+        width: 30vw;
+    }
+
+    .graph h2{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        padding-top: 0px;
+        text-align: center;
+    }
+    
+    .graph p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .sub{
+        width: 150px;
+        height: 45px;
+        background-color: white;
+        border-radius: 40px;
+        margin-top: 25px;
+        margin-left: 200px;
+    }
+    
+    .subt{
+        font-size: 20px;
+        text-align: center;
+        color: #537543;
+        padding-top: 10px;
+    }
+    
+    .sub:hover{
+        cursor: pointer;
+    }
+
+    .menu{
+        width: 100%;
+        height: 230px;
+        background-color: #dd982c;
+        text-align: center;
+    }
+
+    .menu p{
+        font-size: 10px;
+        color: #537543;
+        padding-top: 15px;
+    }
+
+    .grid-container {
+        display: block;
+        grid-template-columns: auto auto;
+        background-color: #72a352;
+        padding: 0px;
+    }
+
+    .grid-item{
+        margin-left: 62px;
+    }
+
+    .t{
+        margin-left: 20px;
+    }
+    
+    .t h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+        padding-left: 100px;
+    }
+    
+    .t h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 15px;
+        padding-left: 150px;
+    }
+    
+    .t p{
+        font-size: 17px;
+        color: white;
+        padding-top: 15px;
+        padding-left: 78px;
+    }
+
+    .t1{
+        margin-left: 113px;
+    }
+    
+    .t1 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+    }
+    
+    .t1 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 15px;
+    }
+    
+    .t1 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 15px;
+    }
+
+    .t2{
+        margin-left: 42px;
+    }
+    
+    .t2 h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 0px;
+    }
+    
+    .t2 h3{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        padding-top: 15px;
+    }
+    
+    .t2 p{
+        font-size: 17px;
+        color: white;
+        padding-top: 15px;
+    }
+
+    
+    .white{
+        width: 100%;
+        height: 550px;
+        background-color: white;
+   }
+
+    .white h2{
+        font-size: 50px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #72a352;
+        text-align: center;
+        padding-top: 50px;
+   }
+
+    .white p{
+        font-size: 15px;
+        color: #72a352;
+        text-align: center;
+        padding-top: 20px;
+   }
+
+    input{
+        width: 50%;
+        height: 50px;
+        border: 3px solid #537543;
+        border-radius: 50px;
+        color: #2c2f2b;
+        text-align: center;
+        margin: 50px 0px 0px 144px;
+        font-weight: bold;
+        font-size: 20px;
+   }
+
+   th{
+       font-size: 20px;
+       font-family: 'Berkshire Swash', cursive;
+       color: white;
+   }
+
+   td{
+       font-size: 13px;
+    }
+
+    .icons{
+        margin-top: 20px;
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+
+    .logo{
+        padding: 10px 0px 0px 5px;
+    }    
+
+    .navbar ul li a{
+        font-size: 9px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-left: 5px;
+    }
+
+    .search{
+        width: 50px;
+        height: 50px;
+        margin: 30px 8px 0px 0px;
+    }
+
+    .banner{
+        width: 100%;
+        height: 232px;
+        display: flex;
+    }
+
+    .left h2{
+        font-size: 20px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+
+    .left h2 span{
+        font-size: 40px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+    
+    .left p{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        width: 60%;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+
+    .right{
+        width: 40%;
+    }
+    
+    .image{
+        width: 168px;
+        height: 400px;
+        background-image: url('../images/food.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .btn{
+        width: 100px;
+        height: 45px;
+        background-color: #e6ca48;
+        margin: 15px 0px 0px 10px;
+        border-radius: 20px;
+    }
+    
+    .btntext{
+        font-size: 12px;
+        color: #537543;
+        padding-top: 17px;
+        text-align: center;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+    }
+
+    .next{
+        width: 70%;
+        height: 230px;
+        background-color: #e6ca48;
+        margin-top: 50px;
+        float: right;
+    }
+
+    .thaali{
+        width: 285px;
+        height: 280px;
+        background-image: url('../images/thaali.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 5px;
+        right: 140px;
+    }
+
+    .para{
+        float: right; 
+    }
+    
+    .para h1{
+        font-size: 20px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #537543;
+        padding: 30px 0px 0px 0px;
+        margin-left: 25px;
+    }
+    
+    .para h3{
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+        color: #537543;
+        padding-top: 10px;
+        margin-left: 15px;
+    }
+    
+    .para p{
+        font-size: 7px;
+        color: #537543;
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .card{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card h2{
+        font-size: 20px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card1 h2{
+        font-size: 20px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card1 p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+    
+    .card2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .card2 h2{
+        font-size: 20px;
+        color: white;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    
+    .card2 p{
+        font-size: 12px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .father{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 500px;
+        align-items: center;
+        margin-left: -10px;
+    }
+
+    .cook p{
+        text-align: center;
+        font-size: 13px;
+        color: white;
+        padding-top: 20px;
+    }
+
+    .sub{
+        width: 150px;
+        height: 45px;
+        background-color: white;
+        border-radius: 40px;
+        margin-top: 25px;
+        margin-left: 164px;
+    }
+
+    .testi{
+        width: 100%;
+        height: 264px;
+        background-color: #537543;
+        text-align: center;
+    }
+    
+    .testi h2{
+        font-size: 35px;
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+        padding-top: 25px;
+    }
+    
+    .testi p{
+        font-size: 15px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .menu p{
+        font-size: 8px;
+        color: #537543;
+        padding-top: 15px;
+    }
+
+    .grid-item{
+        margin-left: 36px;
+    }
+
+    .white{
+        width: 100%;
+        height: 450px;
+        background-color: white;
+   }
+
+    .white h2{
+        font-size: 40px;
+        font-family: 'Berkshire Swash', cursive;
+        color: #72a352;
+        text-align: center;
+        padding-top: 50px;
+   }
+
+    .white p{
+        font-size: 12px;
+        color: #72a352;
+        text-align: center;
+        padding-top: 20px;
+   }
+
+   td{
+       font-size: 10px;
+   }
+
+   .icons{
+       margin-top: 10px;
+       width: 50%;
+   }
+
+   .orange{
+        width: 100%;
+        height: 365px;
+        background-color: #dd982c;
+        display: block;
+        margin: 0px 50px 0px 0px;
+   }
+
+   .chef img{
+        margin-top: 20px;
+   }
+
+}
